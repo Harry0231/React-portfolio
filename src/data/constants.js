@@ -225,7 +225,7 @@ export const experiences = [
     role: "Junior Software Engineer",
     company: "Drevol Software LLP",
     date: "April 2022 - Present",
-    desc: "Experienced in client-based project development and internal tool creation. Proficient in writing unit tests and integration tests using RTL and Jest to ensure bug-free releases. Strong understanding of Azure and CI/CD pipelines for efficient deployment processes.",
+    desc: "Experienced in client-based project development and internal tool creation for [Drevol Software LLP], with a strong focus on front-end and MERN stack development. Skilled in crafting responsive user interfaces using modern technologies like React.js and proficient in backend development with Node.js and Express.js. Expertise in database management with MongoDB and designing RESTful APIs for seamless data exchange. Well-versed in version control, CI/CD pipelines, and continuous learning to ensure the delivery of high-quality, scalable web applications.",
     skills: [
       "ReactJS",
       "Redux",
