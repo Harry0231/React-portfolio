@@ -60,7 +60,7 @@ const Navbar = ({ toggleTheme, isDarkMode }) => {
             Github Profile
           </GitHubButton>
           <label className="switch" style={{ marginLeft: '10px' }}>
-            <input type="checkbox" checked={isDarkMode} onChange={toggleTheme} />
+            <input type="checkbox" checked={!isDarkMode} onChange={toggleTheme} />
             <span className="slider"></span>
           </label>
         </ButtonContainer>

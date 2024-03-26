@@ -1,3 +1,13 @@
+import portfolioImage from "../images/portfolio.png";
+import Weather_AppImage from "../images/Weather_App.png";
+import Chat_AppImage from "../images/Chat_App.png";
+
+<>
+  <img src={portfolioImage} alt="Portfolio" />
+  <img src={Weather_AppImage} alt="Weather_App" />
+  <img src={Chat_AppImage} alt="Chat_App" />
+</>;
+
 export const Bio = {
   name: "Haranarayan Singh",
   roles: ["MERN Stack Developer", "FrontEnd Developer", "Programmer"],
@@ -277,7 +287,6 @@ export const education = [
     date: "Apr 2015",
     desc: "I completed my class 10th education at MRPSS School, Bhim,Rajasthan.",
     degree: "BSER(X), Science",
-
   },
 ];
 
@@ -287,16 +296,9 @@ export const projects = [
     title: "Weather App",
     date: "Jun 2022 - Jul 2022",
     description:
-    "Developed a Weather App with React.js, deployed on Netlify. Designed during my learning phase to provide real-time weather updates with a user-friendly interface.",
-    image:
-      "",
-    tags: [
-      "React Js",
-      "Html",
-      "Css",
-      "JavaScript",
-      "Netlify",
-    ],
+      "Developed a Weather App with React.js, deployed on Netlify. Designed during my learning phase to provide real-time weather updates with a user-friendly interface.",
+    image: Weather_AppImage,
+    tags: ["React Js", "Html", "Css", "JavaScript", "Netlify"],
     category: "web app",
     github: "https://github.com/Harry0231/Weather-APP",
     webapp: "https://harry-rajput0225.netlify.app/",
@@ -307,14 +309,41 @@ export const projects = [
     date: "Feb 2024 - March 2024",
     description:
       "Developed a real-time chat app with React.js using Material UI, hosted on Render platform. Integrated essential backend tools for secure authentication and utilized express, mongoose, and socket.io for server-side operations. Managed state with Daizy UI and Zustand for smooth user interactions.",
-    image:
-      "",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js", "Redux","Zustand","Token-Auth","Socket"],
+    image: Chat_AppImage,
+    tags: [
+      "React Js",
+      "MongoDb",
+      "Node Js",
+      "Express Js",
+      "Redux",
+      "Zustand",
+      "Token-Auth",
+      "Socket",
+    ],
     category: "web app",
     github: "https://github.com/Harry0231/mern-chat-app",
     webapp: "https://mern-chat-app-z4kg.onrender.com",
   },
- 
+  {
+    id: 2,
+    title: "React-Portfolio",
+    date: "Jan 2024 - March 2024",
+    description:
+      "Explore my portfolio developed with React JS, featuring dynamic UI elements crafted with JSX and styled using CSS, Styled Components, and Material-UI. Seamlessly navigate through projects with React-Router, while EmailJS enables direct communication.",
+    image: portfolioImage,
+    tags: [
+      "React Js",
+      "jsx",
+      "css",
+      "Javascript",
+      "Styled Component",
+      "EmailJS",
+      "Material-UI",
+      "Render",
+      "React-Router",
+    ],
+    category: "web app",
+    github: "https://github.com/Harry0231/React-portfolio",
+    webapp: "https://react-portfolio-a94a.onrender.com/",
+  },
 ];
-
-
